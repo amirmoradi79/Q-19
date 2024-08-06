@@ -24,12 +24,8 @@ export default function TodoList() {
         >
           <p>{item.action}</p>
           <div className="flex gap-x-3">
-            <button>
-              <Icon icon="ion:trash-outline" />
-            </button>
-            <button>
-              <Icon icon="bx:edit" />
-            </button>
+            <button>edit</button>
+            <button>delet</button>
           </div>
         </div>
       ))}
