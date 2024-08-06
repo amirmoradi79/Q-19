@@ -1,3 +1,5 @@
+import TodoList from "./TodoList";
+
 export default function MainSection() {
   return (
     <>
@@ -14,6 +16,7 @@ export default function MainSection() {
             className="bg-gray-300 p-2 rounded-2xl"
           ></button>
         </div>
+        <TodoList />
       </div>
     </>
   );
